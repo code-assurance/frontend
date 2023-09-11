@@ -1,7 +1,10 @@
-body { margin: 0;
-  
-
+body {
+    margin-top: 20px;
+    background-color: rgb(137, 216, 216);
 }
-  
 
-  
+img {
+    width: 20%;
+    length:10%;
+    border: 2px;
+}
