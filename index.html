@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zuri Internship</title>
     <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
 </head>
 <body>
-  <div class="container">
-  <label for="Sname">Slack Name:</label>
-    <input type="text" data-testid="Slack Name" value="Rahmon Shuaib"><br><br>
-      <img src="front pics.jpg" data-testid="Rahmon shuaib" alt="Rahmon Shuaib">
-        <div id="date">Date: </div>
-        <div id="time">Time: </div>
-      <p id="track">My Track: Front-End</p>   
-          <a href="https://github.com/code-assurance/frontend">githubURL</a>
-  </div>
+  <main>
+    <div class="container">
+      <div class="header">
+        <h1 data-testid="slackUserName" class="user-name">Slack Name: Shuaib Rahmon</h1>
+        <img data-testid="slackDisplayImage" class="user-img" src="front pics.jpg" alt="Shuaib Rahmon" />
+      </div>
+      <ul class="date-time-container">
+        <li class="date" id="date" data-testid="currentDayOfTheWeek">Date:</li>
+        <li class="time" id="time" data-testid="currentUTCTime">Time:</li>
+      </ul>
+      <div class="track-container">
+        <p class="track" data-testid="myTrack">Frontend</p>
+        <a href="https://github.com/code-assurance/frontend" data-testid="githuubURL">GitHub Repo</a>
+      </div>
+    </div>
+  </main>
 
-  <script src="script.js"></script>              
+  <script src="script.js"></script>
 </body>
 </html>
+  

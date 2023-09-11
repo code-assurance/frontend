@@ -1,17 +1,3 @@
-      
-                // const date = document.getElementById("date");
-                // const time = document.getElementById("time");
-                // // creating the date object and getting the date and time
-                // let newDate = new date();
-                // let year = newDate.getFullYear(2023);
-                // let month = newDate.getMonth(9);
-                // let todaysDate = newDate.getDate(11);
-                // let hours = newDate.getHours(17);
-                // let minutes = newDate.getMinutes(60);
-                // let seconds = newDate.getSeconds(60);
-                // date.innerHTML = " " + todaysDate + " / " + month + " / " + year;
-                // time.innerHTML = hours + " :  " + minutes + " :  " + seconds;
-
 const getDays = [
   'Sunday',
   'Monday',
